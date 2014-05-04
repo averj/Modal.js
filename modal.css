@@ -1,0 +1,52 @@
+body {
+	font-weight:300;
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.main {
+	position:fixed;
+	font-weight: 600;
+	font-size: 30px;
+	top:50%;
+	left:50%;
+	margin: -110px 0 0 -70px;
+	transition: color .5s;
+}
+
+.main:hover {
+	color: #1777eb;
+	cursor: pointer;
+}
+
+.modal {
+	display: none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:400px;
+	margin: -150px 0 0 -200px;
+	background-color:#fff;
+	padding:25px;
+	z-index:10;
+	box-shadow:0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+.modal h2 {
+	margin: 0;
+}
+
+.modal .close {
+	position:absolute;
+	text-transform: uppercase;
+	font-size: 12px;
+	top:10px;
+	right:10px;
+	margin:0;
+	transition: color .75s;
+}
+
+.modal .close:hover {
+	color: #1777eb;
+	cursor: pointer;
+	transition: color .75s;
+}
