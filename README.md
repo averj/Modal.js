@@ -1,7 +1,6 @@
 Modal.js
 ========
-
-Simplest jQuery Modal plugin using CSS and Javascript
+Modal.js is a extremely simple jQuery plugin used to make modal's simple.  This is made entirley out of CSS and Javascript, you can find an example below on how to put this to use.
 
 Usage:
 ======
